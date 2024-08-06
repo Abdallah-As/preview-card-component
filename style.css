@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(0, 0%, 95%);
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
+
+.card {
+    width: 286px;
+    padding: 42px;
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 0px 0px 10px;
+}
+
+.card-2 {
+    width: 286px;
+    padding: 42px;
+    background-color: hsl(184, 100%, 22%);
+}
+
+.card-3 {
+    width: 286px;
+    padding: 42px;
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0px 10px 10px 0px;
+}
+
+h1 {
+    font-family: Big Shoulders Display;
+    text-transform: uppercase;
+    font-size: 41px;
+    color: hsl(0, 0%, 95%);
+    padding: 31px 0;
+}
+
+p {
+    font-family: Lexend Deca;
+    width: 208px;
+    font-size: 14.5px;
+    color: hsl(0, 0%, 95%);
+    padding-bottom: 84px;
+    line-height: 28px;
+}
+
+.btn1 , .btn2 , .btn3{
+    font-family: Lexend Deca;
+    background-color: hsl(0, 0%, 95%);
+    border: none;
+    padding: 15px 30px;
+    border-radius: 50px;
+    border: 2px solid hsl(0, 0%, 95%);
+    cursor: pointer;
+    transition: .4s;
+}
+
+.btn1 {
+    color: hsl(31, 77%, 52%);
+}
+.btn2 {
+    color: hsl(184, 100%, 22%);
+}
+.btn2 {
+    color: hsl(179, 100%, 13%);
+}
+
+.btn1:hover {
+    background-color: hsl(31, 77%, 52%);
+    border: 2px solid hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+}
+.btn2:hover {
+    background-color: hsl(184, 100%, 22%);
+    border: 2px solid hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+}
+.btn3:hover {
+    background-color: hsl(179, 100%, 13%);
+    border: 2px solid hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+}
+    
